@@ -6,7 +6,8 @@ class cliente:
 
     def depositar(self,monto):
         self.monto=self.monto+monto
-        
+
+       
         return monto
 
     def extraer(self,monto):
@@ -47,3 +48,4 @@ class banco:
 oso=banco()
 oso.operar()
 oso.depositost()
+#hola como estas#
